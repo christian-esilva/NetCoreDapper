@@ -1,0 +1,17 @@
+C:\Users\Christian\source\repos\GameStore\GameStore.Tests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Christian\source\repos\GameStore\GameStore.Tests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Christian\source\repos\GameStore\GameStore.Tests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Christian\source\repos\GameStore\GameStore.Tests\bin\Debug\netcoreapp2.1\GameStore.Tests.deps.json
+C:\Users\Christian\source\repos\GameStore\GameStore.Tests\bin\Debug\netcoreapp2.1\GameStore.Tests.runtimeconfig.json
+C:\Users\Christian\source\repos\GameStore\GameStore.Tests\bin\Debug\netcoreapp2.1\GameStore.Tests.runtimeconfig.dev.json
+C:\Users\Christian\source\repos\GameStore\GameStore.Tests\bin\Debug\netcoreapp2.1\GameStore.Tests.dll
+C:\Users\Christian\source\repos\GameStore\GameStore.Tests\bin\Debug\netcoreapp2.1\GameStore.Tests.pdb
+C:\Users\Christian\source\repos\GameStore\GameStore.Tests\obj\Debug\netcoreapp2.1\GameStore.Tests.csprojAssemblyReference.cache
+C:\Users\Christian\source\repos\GameStore\GameStore.Tests\obj\Debug\netcoreapp2.1\GameStore.Tests.csproj.CoreCompileInputs.cache
+C:\Users\Christian\source\repos\GameStore\GameStore.Tests\obj\Debug\netcoreapp2.1\GameStore.Tests.AssemblyInfoInputs.cache
+C:\Users\Christian\source\repos\GameStore\GameStore.Tests\obj\Debug\netcoreapp2.1\GameStore.Tests.AssemblyInfo.cs
+C:\Users\Christian\source\repos\GameStore\GameStore.Tests\obj\Debug\netcoreapp2.1\GameStore.Tests.dll
+C:\Users\Christian\source\repos\GameStore\GameStore.Tests\obj\Debug\netcoreapp2.1\GameStore.Tests.pdb
+C:\Users\Christian\source\repos\GameStore\GameStore.Tests\bin\Debug\netcoreapp2.1\GameStore.Domain.dll
+C:\Users\Christian\source\repos\GameStore\GameStore.Tests\bin\Debug\netcoreapp2.1\GameStore.Domain.pdb
+C:\Users\Christian\source\repos\GameStore\GameStore.Tests\obj\Debug\netcoreapp2.1\GameStore.Tests.csproj.CopyComplete

@@ -1,0 +1,14 @@
+C:\Users\Christian\source\repos\GameStore\GameStore.Api\bin\Debug\netcoreapp2.1\GameStore.Api.deps.json
+C:\Users\Christian\source\repos\GameStore\GameStore.Api\bin\Debug\netcoreapp2.1\GameStore.Api.runtimeconfig.json
+C:\Users\Christian\source\repos\GameStore\GameStore.Api\bin\Debug\netcoreapp2.1\GameStore.Api.runtimeconfig.dev.json
+C:\Users\Christian\source\repos\GameStore\GameStore.Api\bin\Debug\netcoreapp2.1\GameStore.Api.dll
+C:\Users\Christian\source\repos\GameStore\GameStore.Api\bin\Debug\netcoreapp2.1\GameStore.Api.pdb
+C:\Users\Christian\source\repos\GameStore\GameStore.Api\obj\Debug\netcoreapp2.1\GameStore.Api.csprojAssemblyReference.cache
+C:\Users\Christian\source\repos\GameStore\GameStore.Api\obj\Debug\netcoreapp2.1\GameStore.Api.csproj.CoreCompileInputs.cache
+C:\Users\Christian\source\repos\GameStore\GameStore.Api\obj\Debug\netcoreapp2.1\GameStore.Api.RazorAssemblyInfo.cache
+C:\Users\Christian\source\repos\GameStore\GameStore.Api\obj\Debug\netcoreapp2.1\GameStore.Api.RazorAssemblyInfo.cs
+C:\Users\Christian\source\repos\GameStore\GameStore.Api\obj\Debug\netcoreapp2.1\GameStore.Api.AssemblyInfoInputs.cache
+C:\Users\Christian\source\repos\GameStore\GameStore.Api\obj\Debug\netcoreapp2.1\GameStore.Api.AssemblyInfo.cs
+C:\Users\Christian\source\repos\GameStore\GameStore.Api\obj\Debug\netcoreapp2.1\GameStore.Api.RazorTargetAssemblyInfo.cache
+C:\Users\Christian\source\repos\GameStore\GameStore.Api\obj\Debug\netcoreapp2.1\GameStore.Api.dll
+C:\Users\Christian\source\repos\GameStore\GameStore.Api\obj\Debug\netcoreapp2.1\GameStore.Api.pdb

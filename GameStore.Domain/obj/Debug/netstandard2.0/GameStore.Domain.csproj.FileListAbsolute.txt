@@ -1,0 +1,9 @@
+C:\Users\Christian\source\repos\GameStore\GameStore.Domain\bin\Debug\netstandard2.0\GameStore.Domain.deps.json
+C:\Users\Christian\source\repos\GameStore\GameStore.Domain\bin\Debug\netstandard2.0\GameStore.Domain.dll
+C:\Users\Christian\source\repos\GameStore\GameStore.Domain\bin\Debug\netstandard2.0\GameStore.Domain.pdb
+C:\Users\Christian\source\repos\GameStore\GameStore.Domain\obj\Debug\netstandard2.0\GameStore.Domain.csprojAssemblyReference.cache
+C:\Users\Christian\source\repos\GameStore\GameStore.Domain\obj\Debug\netstandard2.0\GameStore.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Christian\source\repos\GameStore\GameStore.Domain\obj\Debug\netstandard2.0\GameStore.Domain.AssemblyInfoInputs.cache
+C:\Users\Christian\source\repos\GameStore\GameStore.Domain\obj\Debug\netstandard2.0\GameStore.Domain.AssemblyInfo.cs
+C:\Users\Christian\source\repos\GameStore\GameStore.Domain\obj\Debug\netstandard2.0\GameStore.Domain.dll
+C:\Users\Christian\source\repos\GameStore\GameStore.Domain\obj\Debug\netstandard2.0\GameStore.Domain.pdb

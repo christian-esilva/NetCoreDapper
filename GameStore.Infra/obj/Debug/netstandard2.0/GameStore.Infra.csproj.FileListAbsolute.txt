@@ -1,0 +1,9 @@
+C:\Users\Christian\source\repos\GameStore\GameStore.Infra\bin\Debug\netstandard2.0\GameStore.Infra.deps.json
+C:\Users\Christian\source\repos\GameStore\GameStore.Infra\bin\Debug\netstandard2.0\GameStore.Infra.dll
+C:\Users\Christian\source\repos\GameStore\GameStore.Infra\bin\Debug\netstandard2.0\GameStore.Infra.pdb
+C:\Users\Christian\source\repos\GameStore\GameStore.Infra\obj\Debug\netstandard2.0\GameStore.Infra.csprojAssemblyReference.cache
+C:\Users\Christian\source\repos\GameStore\GameStore.Infra\obj\Debug\netstandard2.0\GameStore.Infra.csproj.CoreCompileInputs.cache
+C:\Users\Christian\source\repos\GameStore\GameStore.Infra\obj\Debug\netstandard2.0\GameStore.Infra.AssemblyInfoInputs.cache
+C:\Users\Christian\source\repos\GameStore\GameStore.Infra\obj\Debug\netstandard2.0\GameStore.Infra.AssemblyInfo.cs
+C:\Users\Christian\source\repos\GameStore\GameStore.Infra\obj\Debug\netstandard2.0\GameStore.Infra.dll
+C:\Users\Christian\source\repos\GameStore\GameStore.Infra\obj\Debug\netstandard2.0\GameStore.Infra.pdb
