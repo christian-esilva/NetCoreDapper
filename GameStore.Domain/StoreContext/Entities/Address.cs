@@ -1,9 +1,9 @@
-﻿using FluentValidator;
-using GameStore.Domain.StoreContext.Enums;
+﻿using GameStore.Domain.StoreContext.Enums;
+using GameStore.Shared.Entities;
 
 namespace GameStore.Domain.StoreContext.Entities
 {
-    public class Address : Notifiable
+    public class Address : Entity
     {
         public Address(string street, string number, string complement, string district, string city,
             string state, string country, string zipCode, EAddressType type)

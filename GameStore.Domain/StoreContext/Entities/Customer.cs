@@ -1,11 +1,11 @@
-using FluentValidator;
 using GameStore.Domain.StoreContext.ValueObjects;
+using GameStore.Shared.Entities;
 using System.Collections.Generic;
 using System.Linq;
 
 namespace GameStore.Domain.StoreContext.Entities
 {
-    public class Customer : Notifiable
+    public class Customer : Entity
     {
         private readonly IList<Address> _addresses;
 

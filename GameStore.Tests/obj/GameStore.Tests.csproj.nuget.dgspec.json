@@ -101,6 +101,10 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "FluentValidator": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",

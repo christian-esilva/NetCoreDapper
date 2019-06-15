@@ -2,9 +2,6 @@
 using GameStore.Domain.StoreContext.Enums;
 using GameStore.Domain.StoreContext.ValueObjects;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace GameStore.Tests.Entities
 {

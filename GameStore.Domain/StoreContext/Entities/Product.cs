@@ -1,8 +1,8 @@
-using FluentValidator;
+using GameStore.Shared.Entities;
 
 namespace GameStore.Domain.StoreContext.Entities
 {
-    public class Product : Notifiable
+    public class Product : Entity
     {
         public Product(string title, string description, string image, decimal price, decimal quantityOnHand)
         {

@@ -1,9 +1,10 @@
 using GameStore.Domain.StoreContext.Enums;
+using GameStore.Shared.Entities;
 using System;
 
 namespace GameStore.Domain.StoreContext.Entities
 {
-    public class Delivery
+    public class Delivery : Entity
     {
         public Delivery(DateTime estimateDeliveryDate)
         {

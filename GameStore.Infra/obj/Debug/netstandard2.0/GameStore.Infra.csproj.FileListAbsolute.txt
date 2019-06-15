@@ -16,3 +16,8 @@ C:\dev\NetCoreDapper\GameStore.Infra\obj\Debug\netstandard2.0\GameStore.Infra.As
 C:\dev\NetCoreDapper\GameStore.Infra\obj\Debug\netstandard2.0\GameStore.Infra.AssemblyInfo.cs
 C:\dev\NetCoreDapper\GameStore.Infra\obj\Debug\netstandard2.0\GameStore.Infra.dll
 C:\dev\NetCoreDapper\GameStore.Infra\obj\Debug\netstandard2.0\GameStore.Infra.pdb
+C:\dev\NetCoreDapper\GameStore.Infra\bin\Debug\netstandard2.0\GameStore.Domain.dll
+C:\dev\NetCoreDapper\GameStore.Infra\bin\Debug\netstandard2.0\GameStore.Shared.dll
+C:\dev\NetCoreDapper\GameStore.Infra\bin\Debug\netstandard2.0\GameStore.Domain.pdb
+C:\dev\NetCoreDapper\GameStore.Infra\bin\Debug\netstandard2.0\GameStore.Shared.pdb
+C:\dev\NetCoreDapper\GameStore.Infra\obj\Debug\netstandard2.0\GameStore.Infra.csproj.CopyComplete
