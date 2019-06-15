@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Christian\\source\\repos\\GameStore\\GameStore.Infra\\GameStore.Infra.csproj",
+      "projectUniqueName": "C:\\dev\\NetCoreDapper\\GameStore.Infra\\GameStore.Infra.csproj",
       "projectName": "GameStore.Infra",
-      "projectPath": "C:\\Users\\Christian\\source\\repos\\GameStore\\GameStore.Infra\\GameStore.Infra.csproj",
+      "projectPath": "C:\\dev\\NetCoreDapper\\GameStore.Infra\\GameStore.Infra.csproj",
       "packagesPath": "C:\\Users\\Christian\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Christian\\source\\repos\\GameStore\\GameStore.Infra\\obj\\",
+      "outputPath": "C:\\dev\\NetCoreDapper\\GameStore.Infra\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

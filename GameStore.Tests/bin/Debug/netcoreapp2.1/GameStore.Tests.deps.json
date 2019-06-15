@@ -1024,10 +1024,16 @@
       },
       "GameStore.Domain/1.0.0": {
         "dependencies": {
-          "FluentValidator": "2.0.2"
+          "FluentValidator": "2.0.2",
+          "GameStore.Shared": "1.0.0"
         },
         "runtime": {
           "GameStore.Domain.dll": {}
+        }
+      },
+      "GameStore.Shared/1.0.0": {
+        "runtime": {
+          "GameStore.Shared.dll": {}
         }
       }
     }
@@ -1536,6 +1542,11 @@
       "hashPath": "system.xml.xpath.xmldocument.4.0.1.nupkg.sha512"
     },
     "GameStore.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GameStore.Shared/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1634,13 +1634,24 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "FluentValidator": "2.0.2"
+          "FluentValidator": "2.0.2",
+          "GameStore.Shared": "1.0.0"
         },
         "compile": {
           "bin/placeholder/GameStore.Domain.dll": {}
         },
         "runtime": {
           "bin/placeholder/GameStore.Domain.dll": {}
+        }
+      },
+      "GameStore.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/GameStore.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GameStore.Shared.dll": {}
         }
       }
     }
@@ -5852,6 +5863,11 @@
       "type": "project",
       "path": "../GameStore.Domain/GameStore.Domain.csproj",
       "msbuildProject": "../GameStore.Domain/GameStore.Domain.csproj"
+    },
+    "GameStore.Shared/1.0.0": {
+      "type": "project",
+      "path": "../GameStore.Shared/GameStore.Shared.csproj",
+      "msbuildProject": "../GameStore.Shared/GameStore.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5870,11 +5886,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Christian\\source\\repos\\GameStore\\GameStore.Tests\\GameStore.Tests.csproj",
+      "projectUniqueName": "C:\\dev\\NetCoreDapper\\GameStore.Tests\\GameStore.Tests.csproj",
       "projectName": "GameStore.Tests",
-      "projectPath": "C:\\Users\\Christian\\source\\repos\\GameStore\\GameStore.Tests\\GameStore.Tests.csproj",
+      "projectPath": "C:\\dev\\NetCoreDapper\\GameStore.Tests\\GameStore.Tests.csproj",
       "packagesPath": "C:\\Users\\Christian\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Christian\\source\\repos\\GameStore\\GameStore.Tests\\obj\\",
+      "outputPath": "C:\\dev\\NetCoreDapper\\GameStore.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5893,8 +5909,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\Users\\Christian\\source\\repos\\GameStore\\GameStore.Domain\\GameStore.Domain.csproj": {
-              "projectPath": "C:\\Users\\Christian\\source\\repos\\GameStore\\GameStore.Domain\\GameStore.Domain.csproj"
+            "C:\\dev\\NetCoreDapper\\GameStore.Domain\\GameStore.Domain.csproj": {
+              "projectPath": "C:\\dev\\NetCoreDapper\\GameStore.Domain\\GameStore.Domain.csproj"
             }
           }
         }

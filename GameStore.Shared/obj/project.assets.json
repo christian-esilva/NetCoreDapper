@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Christian\\source\\repos\\GameStore\\GameStore.Shared\\GameStore.Shared.csproj",
+      "projectUniqueName": "C:\\dev\\NetCoreDapper\\GameStore.Shared\\GameStore.Shared.csproj",
       "projectName": "GameStore.Shared",
-      "projectPath": "C:\\Users\\Christian\\source\\repos\\GameStore\\GameStore.Shared\\GameStore.Shared.csproj",
+      "projectPath": "C:\\dev\\NetCoreDapper\\GameStore.Shared\\GameStore.Shared.csproj",
       "packagesPath": "C:\\Users\\Christian\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Christian\\source\\repos\\GameStore\\GameStore.Shared\\obj\\",
+      "outputPath": "C:\\dev\\NetCoreDapper\\GameStore.Shared\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

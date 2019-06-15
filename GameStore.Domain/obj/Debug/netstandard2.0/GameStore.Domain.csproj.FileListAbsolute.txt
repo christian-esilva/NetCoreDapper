@@ -7,3 +7,15 @@ C:\Users\Christian\source\repos\GameStore\GameStore.Domain\obj\Debug\netstandard
 C:\Users\Christian\source\repos\GameStore\GameStore.Domain\obj\Debug\netstandard2.0\GameStore.Domain.AssemblyInfo.cs
 C:\Users\Christian\source\repos\GameStore\GameStore.Domain\obj\Debug\netstandard2.0\GameStore.Domain.dll
 C:\Users\Christian\source\repos\GameStore\GameStore.Domain\obj\Debug\netstandard2.0\GameStore.Domain.pdb
+C:\dev\NetCoreDapper\GameStore.Domain\bin\Debug\netstandard2.0\GameStore.Domain.deps.json
+C:\dev\NetCoreDapper\GameStore.Domain\bin\Debug\netstandard2.0\GameStore.Domain.dll
+C:\dev\NetCoreDapper\GameStore.Domain\bin\Debug\netstandard2.0\GameStore.Domain.pdb
+C:\dev\NetCoreDapper\GameStore.Domain\obj\Debug\netstandard2.0\GameStore.Domain.csprojAssemblyReference.cache
+C:\dev\NetCoreDapper\GameStore.Domain\obj\Debug\netstandard2.0\GameStore.Domain.csproj.CoreCompileInputs.cache
+C:\dev\NetCoreDapper\GameStore.Domain\obj\Debug\netstandard2.0\GameStore.Domain.AssemblyInfoInputs.cache
+C:\dev\NetCoreDapper\GameStore.Domain\obj\Debug\netstandard2.0\GameStore.Domain.AssemblyInfo.cs
+C:\dev\NetCoreDapper\GameStore.Domain\obj\Debug\netstandard2.0\GameStore.Domain.dll
+C:\dev\NetCoreDapper\GameStore.Domain\obj\Debug\netstandard2.0\GameStore.Domain.pdb
+C:\dev\NetCoreDapper\GameStore.Domain\bin\Debug\netstandard2.0\GameStore.Shared.dll
+C:\dev\NetCoreDapper\GameStore.Domain\bin\Debug\netstandard2.0\GameStore.Shared.pdb
+C:\dev\NetCoreDapper\GameStore.Domain\obj\Debug\netstandard2.0\GameStore.Domain.csproj.CopyComplete

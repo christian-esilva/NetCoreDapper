@@ -7,3 +7,12 @@ C:\Users\Christian\source\repos\GameStore\GameStore.Shared\obj\Debug\netstandard
 C:\Users\Christian\source\repos\GameStore\GameStore.Shared\obj\Debug\netstandard2.0\GameStore.Shared.AssemblyInfo.cs
 C:\Users\Christian\source\repos\GameStore\GameStore.Shared\obj\Debug\netstandard2.0\GameStore.Shared.dll
 C:\Users\Christian\source\repos\GameStore\GameStore.Shared\obj\Debug\netstandard2.0\GameStore.Shared.pdb
+C:\dev\NetCoreDapper\GameStore.Shared\bin\Debug\netstandard2.0\GameStore.Shared.deps.json
+C:\dev\NetCoreDapper\GameStore.Shared\bin\Debug\netstandard2.0\GameStore.Shared.dll
+C:\dev\NetCoreDapper\GameStore.Shared\bin\Debug\netstandard2.0\GameStore.Shared.pdb
+C:\dev\NetCoreDapper\GameStore.Shared\obj\Debug\netstandard2.0\GameStore.Shared.csprojAssemblyReference.cache
+C:\dev\NetCoreDapper\GameStore.Shared\obj\Debug\netstandard2.0\GameStore.Shared.csproj.CoreCompileInputs.cache
+C:\dev\NetCoreDapper\GameStore.Shared\obj\Debug\netstandard2.0\GameStore.Shared.AssemblyInfoInputs.cache
+C:\dev\NetCoreDapper\GameStore.Shared\obj\Debug\netstandard2.0\GameStore.Shared.AssemblyInfo.cs
+C:\dev\NetCoreDapper\GameStore.Shared\obj\Debug\netstandard2.0\GameStore.Shared.dll
+C:\dev\NetCoreDapper\GameStore.Shared\obj\Debug\netstandard2.0\GameStore.Shared.pdb

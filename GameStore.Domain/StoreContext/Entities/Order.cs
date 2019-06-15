@@ -51,30 +51,26 @@ namespace GameStore.Domain.StoreContext.Entities
 
         public void Ship()
         {
-            // para cada 5 produtos � uma entrega        
+            // A cada 5 produtos � uma entrega
             var deliveries = new List<Delivery>();
-            deliveries.Add(new Delivery(DateTime.Now.AddDays(5)));
             var count = 1;
 
-            //quebra as entregas
+            // Quebra as entregas
             foreach (var item in _items)
             {
-                if(count == 5)
+                if (count == 5)
                 {
                     count = 1;
                     deliveries.Add(new Delivery(DateTime.Now.AddDays(5)));
                 }
-
                 count++;
             }
 
-            //envia as entregas
+            // Envia todos as entregas
             deliveries.ForEach(x => x.Ship());
-            //adiciona as entregas no pedido
-            deliveries.ForEach(x => _deliveries.Add(x));
 
-            var delivery = new Delivery(DateTime.Now.AddDays(5));
-            _deliveries.Add(delivery);
+            // Adiciona as entregas ao pedido
+            deliveries.ForEach(x => _deliveries.Add(x));
         }
 
         public void Cancel()
