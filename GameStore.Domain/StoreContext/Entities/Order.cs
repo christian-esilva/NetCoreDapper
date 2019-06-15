@@ -46,7 +46,6 @@ namespace GameStore.Domain.StoreContext.Entities
         public void Pay()
         {
             Status = EOrderStatus.Paid;
-
         }
 
         public void Ship()
