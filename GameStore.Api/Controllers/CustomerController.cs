@@ -5,6 +5,7 @@ using GameStore.Domain.StoreContext.Commands.CustomerCommands.Outputs;
 using GameStore.Domain.StoreContext.Handlers;
 using GameStore.Domain.StoreContext.Queries;
 using GameStore.Domain.StoreContext.Respositories;
+using GameStore.Shared.Commands;
 using Microsoft.AspNetCore.Mvc;
 
 namespace GameStore.Api.Controllers
@@ -22,6 +23,7 @@ namespace GameStore.Api.Controllers
 
         [HttpGet]
         [Route("customers")]
+        [ResponseCache(Duration = 15)]
         public IEnumerable<ListCustomerQueryResult> Get()
         {
             return _repository.Get();
@@ -43,13 +45,9 @@ namespace GameStore.Api.Controllers
 
         [HttpPost]
         [Route("customers")]
-        public object Post([FromBody]CreateCustomerCommand command)
+        public ICommandResult Post([FromBody]CreateCustomerCommand command)
         {
             var result = (CreateCustomerCommandResult) _handler.Handle(command);
-
-            if(_handler.Invalid)
-                return BadRequest(_handler.Notifications);
-
             return result;
         }
     }

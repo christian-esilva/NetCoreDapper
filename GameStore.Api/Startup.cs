@@ -18,6 +18,8 @@ namespace GameStore.Api
         {
             services.AddMvc();
 
+            services.AddResponseCompression();
+
             services.AddScoped<DataContext, DataContext>();
             services.AddTransient<ICustomerRepository, CustomerRepository>();
             services.AddTransient<IEmailService, EmailService>();
@@ -31,8 +33,9 @@ namespace GameStore.Api
             {
                 app.UseDeveloperExceptionPage();
             }
-
+            
             app.UseMvc();
+            app.UseResponseCompression();
         }
     }
 }

@@ -50,7 +50,7 @@ namespace GameStore.Domain.StoreContext.Handlers
             AddNotifications(customer.Notifications);
 
             if (Invalid)
-                return null;
+                return new CommandResult(false, "Ops, ocorreram alguns avisos", Notifications);
 
             //persistir o cliente
             _repository.Save(customer);
@@ -59,7 +59,12 @@ namespace GameStore.Domain.StoreContext.Handlers
             _emailService.Send(email.Address, "teste@gmail.com", "Bem-vindo", "Seja bem vindo a Game Store");
 
             //retornar o resultado para a tela
-            return new CreateCustomerCommandResult(Guid.NewGuid(), name.ToString(), email.Address);
+            return new CommandResult(true, "Bem vindo a loja", new
+            {
+                Id = customer.Id,
+                Name = name.ToString(),
+                Email = email.Address
+            });
         }
 
         public ICommandResult Handle(AddAddressCommand command)
