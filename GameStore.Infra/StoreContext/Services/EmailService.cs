@@ -7,7 +7,7 @@ namespace GameStore.Infra.StoreContext.Services
     {
         public void Send(string to, string from, string subject, string body)
         {
-            throw new NotImplementedException();
+            //implementar
         }
     }
 }
