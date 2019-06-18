@@ -2,6 +2,47 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.1": {
+      "Dapper/1.50.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Collections": "4.0.11",
+          "System.Collections.Concurrent": "4.0.12",
+          "System.Collections.NonGeneric": "4.0.1",
+          "System.Data.SqlClient": "4.1.0",
+          "System.Dynamic.Runtime": "4.0.11",
+          "System.Linq": "4.1.0",
+          "System.Reflection": "4.1.0",
+          "System.Reflection.Emit": "4.0.1",
+          "System.Reflection.Emit.Lightweight": "4.0.1",
+          "System.Reflection.Extensions": "4.0.1",
+          "System.Reflection.TypeExtensions": "4.1.0",
+          "System.Runtime": "4.1.0",
+          "System.Runtime.Extensions": "4.1.0",
+          "System.Runtime.InteropServices": "4.1.0",
+          "System.Text.RegularExpressions": "4.1.0",
+          "System.Threading": "4.0.11",
+          "System.Xml.XDocument": "4.0.11",
+          "System.Xml.XmlDocument": "4.0.1"
+        },
+        "compile": {
+          "lib/netstandard1.3/Dapper.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/Dapper.dll": {}
+        }
+      },
+      "FluentValidator/2.0.2": {
+        "type": "package",
+        "dependencies": {
+          "NETStandard.Library": "1.6.1"
+        },
+        "compile": {
+          "lib/netstandard1.3/FluentValidator.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard1.3/FluentValidator.dll": {}
+        }
+      },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
         "type": "package",
         "dependencies": {
@@ -2939,7 +2980,7 @@
           "System.Threading": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.3/_._": {}
+          "ref/netstandard1.3/System.Collections.NonGeneric.dll": {}
         },
         "runtime": {
           "lib/netstandard1.3/System.Collections.NonGeneric.dll": {}
@@ -3537,7 +3578,7 @@
           "System.Runtime": "4.3.0"
         },
         "compile": {
-          "ref/netstandard1.0/_._": {}
+          "ref/netstandard1.0/System.Reflection.Emit.Lightweight.dll": {}
         },
         "runtime": {
           "lib/netstandard1.3/System.Reflection.Emit.Lightweight.dll": {}
@@ -4333,10 +4374,83 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "GameStore.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "FluentValidator": "2.0.2",
+          "GameStore.Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GameStore.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GameStore.Domain.dll": {}
+        }
+      },
+      "GameStore.Infra/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Dapper": "1.50.2",
+          "GameStore.Domain": "1.0.0",
+          "GameStore.Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GameStore.Infra.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GameStore.Infra.dll": {}
+        }
+      },
+      "GameStore.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "FluentValidator": "2.0.2"
+        },
+        "compile": {
+          "bin/placeholder/GameStore.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GameStore.Shared.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "Dapper/1.50.2": {
+      "sha512": "6VcCiiOxVhgMwgMCuQuaff8I5IyDamrzeOjuUH1iMExh8R5TJqwkVCpwdVJGQdwSCqWsQA/PerrrK7T6mONthQ==",
+      "type": "package",
+      "path": "dapper/1.50.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dapper.1.50.2.nupkg.sha512",
+        "dapper.nuspec",
+        "lib/net40/Dapper.dll",
+        "lib/net40/Dapper.xml",
+        "lib/net45/Dapper.dll",
+        "lib/net45/Dapper.xml",
+        "lib/net451/Dapper.dll",
+        "lib/net451/Dapper.xml",
+        "lib/netstandard1.3/Dapper.dll",
+        "lib/netstandard1.3/Dapper.xml"
+      ]
+    },
+    "FluentValidator/2.0.2": {
+      "sha512": "+jPy82KgA80/SjmesLUCQsBB+GWbffGYMeGUMizLWc87hQkBPnyrysfoa/Hiq0QciGEeFD1PokPwLafnNDnQ/Q==",
+      "type": "package",
+      "path": "fluentvalidator/2.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fluentvalidator.2.0.2.nupkg.sha512",
+        "fluentvalidator.nuspec",
+        "lib/netstandard1.3/FluentValidator.dll"
+      ]
+    },
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
       "sha512": "owAlEIUZXWSnkK8Z1c+zR47A0X6ykF4XjbPok4lQKNuciUfHLGPd6QnI+rt/8KlQ17PmF+I4S3f+m+Qe4IvViw==",
       "type": "package",
@@ -7221,6 +7335,7 @@
       "path": "runtime.native.system.net.http/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -7247,6 +7362,7 @@
       "path": "runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -9503,6 +9619,7 @@
       "path": "system.reflection.emit.lightweight/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -11785,10 +11902,30 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "GameStore.Domain/1.0.0": {
+      "type": "project",
+      "path": "../GameStore.Domain/GameStore.Domain.csproj",
+      "msbuildProject": "../GameStore.Domain/GameStore.Domain.csproj"
+    },
+    "GameStore.Infra/1.0.0": {
+      "type": "project",
+      "path": "../GameStore.Infra/GameStore.Infra.csproj",
+      "msbuildProject": "../GameStore.Infra/GameStore.Infra.csproj"
+    },
+    "GameStore.Shared/1.0.0": {
+      "type": "project",
+      "path": "../GameStore.Shared/GameStore.Shared.csproj",
+      "msbuildProject": "../GameStore.Shared/GameStore.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
+      "FluentValidator >= 2.0.2",
+      "GameStore.Domain >= 1.0.0",
+      "GameStore.Infra >= 1.0.0",
+      "GameStore.Shared >= 1.0.0",
+      "Microsoft.AspNetCore >= 2.1.1",
       "Microsoft.AspNetCore.App >= 2.1.1",
       "Microsoft.AspNetCore.Razor.Design >= 2.1.2",
       "Microsoft.NETCore.App >= 2.1.0"
@@ -11823,7 +11960,17 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\dev\\NetCoreDapper\\GameStore.Domain\\GameStore.Domain.csproj": {
+              "projectPath": "C:\\dev\\NetCoreDapper\\GameStore.Domain\\GameStore.Domain.csproj"
+            },
+            "C:\\dev\\NetCoreDapper\\GameStore.Infra\\GameStore.Infra.csproj": {
+              "projectPath": "C:\\dev\\NetCoreDapper\\GameStore.Infra\\GameStore.Infra.csproj"
+            },
+            "C:\\dev\\NetCoreDapper\\GameStore.Shared\\GameStore.Shared.csproj": {
+              "projectPath": "C:\\dev\\NetCoreDapper\\GameStore.Shared\\GameStore.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -11835,6 +11982,14 @@
     "frameworks": {
       "netcoreapp2.1": {
         "dependencies": {
+          "FluentValidator": {
+            "target": "Package",
+            "version": "[2.0.2, )"
+          },
+          "Microsoft.AspNetCore": {
+            "target": "Package",
+            "version": "[2.1.1, )"
+          },
           "Microsoft.AspNetCore.App": {
             "suppressParent": "All",
             "target": "Package",

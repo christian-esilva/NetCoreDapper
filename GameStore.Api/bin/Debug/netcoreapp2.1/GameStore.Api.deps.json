@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "f95774411cdded2ba17363b43088b8e298dc2e94"
+    "signature": "3653fd3eadf41b95ddb0a7807acb73043a9c794d"
   },
   "compilationOptions": {
     "defines": [
@@ -24,6 +24,11 @@
     ".NETCoreApp,Version=v2.1": {
       "GameStore.Api/1.0.0": {
         "dependencies": {
+          "FluentValidator": "2.0.2",
+          "GameStore.Domain": "1.0.0",
+          "GameStore.Infra": "1.0.0",
+          "GameStore.Shared": "1.0.0",
+          "Microsoft.AspNetCore": "2.1.1",
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.AspNetCore.Razor.Design": "2.1.2",
           "Microsoft.NETCore.App": "2.1.0"
@@ -35,7 +40,88 @@
           "GameStore.Api.dll": {}
         }
       },
+      "Dapper/1.50.2": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Collections.Concurrent": "4.3.0",
+          "System.Collections.NonGeneric": "4.3.0",
+          "System.Data.SqlClient": "4.5.1",
+          "System.Dynamic.Runtime": "4.3.0",
+          "System.Linq": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Emit": "4.3.0",
+          "System.Reflection.Emit.Lightweight": "4.3.0",
+          "System.Reflection.Extensions": "4.3.0",
+          "System.Reflection.TypeExtensions": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Runtime.InteropServices": "4.3.0",
+          "System.Text.RegularExpressions": "4.3.0",
+          "System.Threading": "4.3.0",
+          "System.Xml.XDocument": "4.3.0",
+          "System.Xml.XmlDocument": "4.3.0"
+        },
+        "runtime": {
+          "lib/netstandard1.3/Dapper.dll": {
+            "assemblyVersion": "1.50.2.0",
+            "fileVersion": "1.50.2.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard1.3/Dapper.dll": {}
+        }
+      },
+      "FluentValidator/2.0.2": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3"
+        },
+        "runtime": {
+          "lib/netstandard1.3/FluentValidator.dll": {
+            "assemblyVersion": "2.0.2.0",
+            "fileVersion": "2.0.2.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard1.3/FluentValidator.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Razor.Design/2.1.2": {},
+      "GameStore.Domain/1.0.0": {
+        "dependencies": {
+          "FluentValidator": "2.0.2",
+          "GameStore.Shared": "1.0.0"
+        },
+        "runtime": {
+          "GameStore.Domain.dll": {}
+        },
+        "compile": {
+          "GameStore.Domain.dll": {}
+        }
+      },
+      "GameStore.Infra/1.0.0": {
+        "dependencies": {
+          "Dapper": "1.50.2",
+          "GameStore.Domain": "1.0.0",
+          "GameStore.Shared": "1.0.0"
+        },
+        "runtime": {
+          "GameStore.Infra.dll": {}
+        },
+        "compile": {
+          "GameStore.Infra.dll": {}
+        }
+      },
+      "GameStore.Shared/1.0.0": {
+        "dependencies": {
+          "FluentValidator": "2.0.2"
+        },
+        "runtime": {
+          "GameStore.Shared.dll": {}
+        },
+        "compile": {
+          "GameStore.Shared.dll": {}
+        }
+      },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
         "dependencies": {
           "Newtonsoft.Json": "11.0.2",
@@ -3165,12 +3251,41 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Dapper/1.50.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6VcCiiOxVhgMwgMCuQuaff8I5IyDamrzeOjuUH1iMExh8R5TJqwkVCpwdVJGQdwSCqWsQA/PerrrK7T6mONthQ==",
+      "path": "dapper/1.50.2",
+      "hashPath": "dapper.1.50.2.nupkg.sha512"
+    },
+    "FluentValidator/2.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+jPy82KgA80/SjmesLUCQsBB+GWbffGYMeGUMizLWc87hQkBPnyrysfoa/Hiq0QciGEeFD1PokPwLafnNDnQ/Q==",
+      "path": "fluentvalidator/2.0.2",
+      "hashPath": "fluentvalidator.2.0.2.nupkg.sha512"
+    },
     "Microsoft.AspNetCore.Razor.Design/2.1.2": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-fe1+dpy+eM4IX1zodsvkihO1Spuj0NecfStWzvkYoMo7/ziOsqSv4vFK36ZpBfHa4gpdCEwaU46EPzdq+ZDYhQ==",
       "path": "microsoft.aspnetcore.razor.design/2.1.2",
       "hashPath": "microsoft.aspnetcore.razor.design.2.1.2.nupkg.sha512"
+    },
+    "GameStore.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GameStore.Infra/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GameStore.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
       "type": "package",
