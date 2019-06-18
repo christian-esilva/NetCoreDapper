@@ -43,7 +43,7 @@ namespace GameStore.Infra.StoreContext.Repositories
         {
             return _context.Connection
            .Query<ListCustomerQueryResult>(
-               "SELECT [Id], CONCAT([FirstName], ' ', [LastName] AS [Name], [Document], [Email] FROM [Customer])");
+               "SELECT [Id], CONCAT([FirstName], ' ', [LastName]) AS [Name], [Document], [Email] FROM [Customer]");
         }
 
         public GetCustomerQueryResult Get(Guid id)
